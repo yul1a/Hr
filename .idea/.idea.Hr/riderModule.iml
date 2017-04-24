@@ -3,8 +3,11 @@
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$/../..">
       <sourceFolder url="file://$MODULE_DIR$/../../Hr" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../TestHr" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/../../Hr/bin" />
       <excludeFolder url="file://$MODULE_DIR$/../../Hr/obj" />
+      <excludeFolder url="file://$MODULE_DIR$/../../TestHr/bin" />
+      <excludeFolder url="file://$MODULE_DIR$/../../TestHr/obj" />
       <excludeFolder url="file://$MODULE_DIR$/../../packages" />
     </content>
     <orderEntry type="sourceFolder" forTests="false" />

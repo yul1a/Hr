@@ -1,5 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
+using System.Text;
 
 namespace Hr
 {
@@ -7,6 +7,7 @@ namespace Hr
     {
         public static void Main(string[] args)
         {
+            SuperReducedString.Reduce();
         }
     }
 }
