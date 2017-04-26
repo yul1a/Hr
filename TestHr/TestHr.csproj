@@ -43,6 +43,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="FunnyStringTest.cs" />
+    <Compile Include="LonelyIntegerTest.cs" />
     <Compile Include="Quicksort1PartitionTest.cs" />
     <Compile Include="SuperReducedStringTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

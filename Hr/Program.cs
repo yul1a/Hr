@@ -1,4 +1,5 @@
-﻿using System.Text;
+﻿using System.Security.Cryptography.X509Certificates;
+using System.Text;
 
 namespace Hr
 {
@@ -8,7 +9,9 @@ namespace Hr
         {
             //SuperReducedString.Reduce();
             //FunnyString.DecideFunnyOrNot();
-            Quicksort1Partition.Partition();
+            //Quicksort1Partition.Partition();
         }
+
+
     }
 }
