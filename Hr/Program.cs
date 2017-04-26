@@ -1,5 +1,4 @@
-﻿using System.Collections.Generic;
-using System.Text;
+﻿using System.Text;
 
 namespace Hr
 {
@@ -7,7 +6,8 @@ namespace Hr
     {
         public static void Main(string[] args)
         {
-            SuperReducedString.Reduce();
+            //SuperReducedString.Reduce();
+            FunnyString.DecideFunnyOrNot();
         }
     }
 }
