@@ -1,4 +1,5 @@
 using System;
+using System.Linq;
 
 namespace Hr
 {
@@ -15,6 +16,11 @@ namespace Hr
                 if (cache[i] == 1)
                     return i;
             throw new InvalidOperationException();
+        }
+        
+        public static int FindUniqueIntegerXOR(int[] numbers)
+        {
+            return numbers.Aggregate(0, (current, number) => number ^ current);
         }
 
 

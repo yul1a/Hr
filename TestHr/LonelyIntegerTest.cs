@@ -20,5 +20,13 @@ namespace TestHr
         }
 
 
+        [Test]
+        public void SimpleXOR()
+        {
+            Assert.That(LonelyInteger.FindUniqueIntegerXOR(new [] {1,1,2}), Is.EqualTo(2));
+            Assert.That(LonelyInteger.FindUniqueIntegerXOR(new [] {0,0,1,2,1}), Is.EqualTo(2));
+        }
+
+
     }
 }
